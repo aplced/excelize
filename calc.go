@@ -215,7 +215,7 @@ var (
 		criteriaL,
 		criteriaG,
 	}
-	tableRefRe = regexp.MustCompile(`^(\w+)\[([^\]]+)\]$`)
+	tableRefRe = regexp.MustCompile(`^(\w+)\[([^\]]*)\]$`)
 )
 
 // calcContext defines the formula execution context.
